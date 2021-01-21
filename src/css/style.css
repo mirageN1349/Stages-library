@@ -1,0 +1,34 @@
+.container {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  justify-content: space-evenly;
+}
+
+.container .item {
+  height: 63px;
+  width: 63px;
+  border-radius: 50%;
+  background-color: rgb(121, 198, 250);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  color: #fff;
+  font-family: Montserrat;
+  font-weight: 600;
+  opacity: 0.5;
+  transition: 0.5s;
+}
+
+.container .item img {
+  max-width: 50px;
+  max-height: 50px;
+}
+.container .active {
+  opacity: 1;
+}
+
+.container .item:hover {
+  cursor: pointer;
+}
